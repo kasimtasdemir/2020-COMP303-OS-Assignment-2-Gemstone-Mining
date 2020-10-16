@@ -8,10 +8,11 @@ CC = gcc
 CFLAGS = -Wall -g3 -gdwarf-2 -DDEBUG
 
 .PHONY: all
-all: $(TARGET_01) $(TARGET_02)
+all: ans1 ans2
+ans1: $(TARGET_01)
+ans2: $(TARGET_02)
 
 $(TARGET_01): $(SOURCE_01)
-
 $(TARGET_02): $(SOURCE_02)
 
 .PHONY: clean
@@ -21,8 +22,7 @@ clean:
 .PHONY: tests
 tests: test1 test2
 
-test1:
-	@echo "this is test1"
-test2:
-	@echo "this is test2"
+test1: ans1
 	@./$(TARGET_01)
+test2: ans2
+	@./$(TARGET_02)
