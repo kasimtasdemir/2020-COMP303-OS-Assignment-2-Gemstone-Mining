@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test1",
-      "setup": "make",
+      "setup": "",
       "run": "make test1",
       "input": "",
       "output": "",
