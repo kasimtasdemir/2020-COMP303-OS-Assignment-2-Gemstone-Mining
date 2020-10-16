@@ -17,3 +17,12 @@ $(TARGET_02): $(SOURCE_02)
 .PHONY: clean
 clean:
 	rm $(TARGET_01) $(TARGET_02) $(OBJS)
+
+.PHONY: tests
+tests: test1 test2
+
+test1:
+	@echo "this is test1"
+test2:
+	@echo "this is test2"
+	@./$(TARGET_01)
