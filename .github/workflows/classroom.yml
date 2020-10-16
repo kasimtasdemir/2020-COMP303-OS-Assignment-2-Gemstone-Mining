@@ -5,7 +5,9 @@
     jobs:
       build:
         name: Autograding
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-18.04
         steps:
           - uses: actions/checkout@v2
+          - name: "Building the code"
+            run: make 
           - uses: education/autograding@v1
