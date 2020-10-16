@@ -8,6 +8,7 @@ TARGET_UTIL_GENERATE_BUCKET = utilities/generate_gemstone_bucket
 SOURCE_UTIL_GENERATE_BUCKET = utilities/generate_gemstone_bucket.c
 
 SEED			= 123
+BUCKET_FILE_COUNT = 5
 
 CC = gcc
 CFLAGS = -Wall -g3 -gdwarf-2 -DDEBUG
@@ -35,6 +36,6 @@ test2: ans2
 .PHONY: generate
 generate: run_generate
 run_generate: $(TARGET_UTIL_GENERATE_BUCKET)
-	@./$(TARGET_UTIL_GENERATE_BUCKET) $(SEED)	
+	@./$(TARGET_UTIL_GENERATE_BUCKET) $(SEED) $(BUCKET_FILE_COUNT)
 
 $(TARGET_UTIL_GENERATE_BUCKET): $(SOURCE_UTIL_GENERATE_BUCKET)
