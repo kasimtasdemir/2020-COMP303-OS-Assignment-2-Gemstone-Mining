@@ -1,4 +1,5 @@
-# Gemstone Mining Game
+# Gemstone Mining Game 
+<img src="https://www.marengocave.com/assets/gemstoneB_800x534-30.jpeg" width="300" />
 A mother has a gemstone mining business. She needs help with sifting for gemstones from her children. She gives a bucket of dirt to each of her children. 
 
 Price list:
