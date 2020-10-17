@@ -3,6 +3,8 @@ This is assignment 2 of COMP303 Operating Systems course offered on Fall, 2020, 
 
 Setup your system as explained [here](https://docs.google.com/document/d/1D3LnA0_xeYbbjsy9k3VN61rTBnec79oQBX7q2yJjO9A/edit?usp=sharing).  
 See the [questions.md](questions.md) file for the questions.
+This assingment uses Github Actions to give feedback about your results. See the actions tab above.
+> Note: Modifying makefile or yml files to get fullscore in the actions tab will not help. TAs replaces your makefiles with the originals and evaluation does not depen on actions outputs. Actions are for a quick feedback to you about your progress.
 
 ## Prequsites
 - Install Ubuntu 18.04 on VirtualBox
