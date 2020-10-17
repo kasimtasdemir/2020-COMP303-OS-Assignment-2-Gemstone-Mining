@@ -64,6 +64,13 @@ There will be only one child. The communication between parent and child will be
 - If the bucket value exceeds 200, The parent will send a message to child asking her/him to exit.
 
 # Help
+- You can run ```make``` to build,
+- You can run ```make clean``` to clean executables,
+- You can run ```make test1``` to test your solution1 (test2 for sol2 ..., or ```make tests``` for all),
+- You can run ```make generate``` to generate text files. This one always generates the same text file. You can use it for debug purposes.,
+- You can run ```make generate_with_random_seeds``` to generate **random** text files at each run,
+
+## Shell commands
 In linux command line, we can checkout the content of a bucket:
 
 ```Shell
