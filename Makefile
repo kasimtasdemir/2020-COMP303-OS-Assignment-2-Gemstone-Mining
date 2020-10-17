@@ -26,7 +26,7 @@ clean:
 	rm -f $(TARGET_01) $(TARGET_02) "$(TARGET_UTIL_GENERATE_BUCKET)" $(OBJS)
 
 .PHONY: tests
-tests: test1 test2
+tests: clean test1 test2
 
 test1: ans1
 	$(eval RECEIVED_OUTPUT = $(shell ./$(TARGET_01) | grep  -ioP "result\s*\K\d+" ))
@@ -43,11 +43,20 @@ test2: ans2
 	))
 	@test $(RECEIVED_OUTPUT) = $(EXPECTED_ANS) \
     || { echo $(RECEIVED_OUTPUT) received but $(EXPECTED_ANS) was expected; exit 2; } \
-    && { echo $(RECEIVED_OUTPUT) is correct.; } 
+    && { echo $(RECEIVED_OUTPUT) is correct.; }
+
+	
+
 
 .PHONY: generate
 generate: run_generate
 run_generate: $(TARGET_UTIL_GENERATE_BUCKET)
 	@./$(TARGET_UTIL_GENERATE_BUCKET) $(SEED) $(BUCKET_FILE_COUNT)
+	@echo "generated with known seeds"
 
 $(TARGET_UTIL_GENERATE_BUCKET): $(SOURCE_UTIL_GENERATE_BUCKET)
+
+generate_with_random_seeds:  $(TARGET_UTIL_GENERATE_BUCKET)
+	$(eval RANDOM_SEED = $(shell date +"%N"))
+	@./$(TARGET_UTIL_GENERATE_BUCKET) $(RANDOM_SEED) $(BUCKET_FILE_COUNT)
+	@echo "generated generate_with_random_seeds"

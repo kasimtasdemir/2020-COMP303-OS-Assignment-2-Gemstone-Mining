@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test1",
-      "setup": "",
+      "setup": "make generate",
       "run": "make test1",
       "input": "",
       "output": "",
@@ -12,7 +12,27 @@
     },
     {
       "name": "Test2",
-      "setup": "",
+      "setup": "make generate",
+      "run": "make test2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "make generate_with_random_seeds",
+      "run": "make test2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "make generate_with_random_seeds",
       "run": "make test2",
       "input": "",
       "output": "",
