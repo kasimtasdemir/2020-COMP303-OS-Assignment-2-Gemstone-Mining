@@ -1,15 +1,15 @@
 # Gemstone Mining Game 
-<img src="https://www.marengocave.com/assets/gemstoneB_800x534-30.jpeg" width="300" />
+<img src="https://www.marengocave.com/assets/gemstoneB_800x534-30.jpeg" />
 A mother has a gemstone mining business. She needs help with sifting for gemstones from her children. She gives a bucket of dirt to each of her children. 
 
 Price list:
-- diamond, 3500$ <img src="https://img.pngio.com/minecraft-diamond-png-free-png-images-clipart-download-275341-diamond-minecraft-png-920_562.png" width="50" />
+- diamond, 3500$ 
 - ruby, 50$ <img src="https://vignette.wikia.nocookie.net/minecraftfanfictions/images/a/a9/Ruby.png/revision/latest?cb=20120803041131" width="50" />
 - sapphire, 1200$ <img src="https://www.tynker.com/minecraft/api/item?id=5a501d3e76f29325548b468d&w=400&h=400&width=400&height=400&mode=contain&format=jpg&quality=75&cache=max&v=1515199806" width="50" />
 - emerald 800$ <img src="https://p7.hiclipart.com/preview/867/644/1013/minecraft-roblox-diamond-video-game-emerald-stone-png-transparent-images.jpg" width="50" />
 
 In this assignment, 
-a bucket of dirt is represented by a text file which is filled with random characters, the dirth. The gemstones are represented by their first letter (lowercase). An example file content is given below:
+a bucket of dirt is represented by a text file which is filled with random characters, the dirt<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/263/bucket_1faa3.png" width="30" />. The gemstones are represented by their first letter (lowercase). An example file content is given below:
 
 
 **s**uff**r**kly7acxjvg8**er**06q5wxk6pgqqywq4q**e**y0eafdwc9**e**4w9**e**
