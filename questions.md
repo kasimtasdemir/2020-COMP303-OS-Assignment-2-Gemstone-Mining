@@ -28,6 +28,8 @@ In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes
 
 **[PID:5738] Tired. Going to sleep for 712msec.**
 
+- Do not use the word *result* in your output messages until the end. This is a special keyword I checkon it in the Makefile to evaluate your final result. 
+
 
 # Part 1
 You are given N text files (buckets) filled with random characters (dirt). 
