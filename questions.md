@@ -30,17 +30,29 @@ Communication from child to parent will be done via message passing.
 
 # Help
 In linux command line, we can checkout the content of a bucket:
-```grep -o [dser] 0.txt | sort | uniq -c ```
+
+```
+grep -o [dser] 0.txt | sort | uniq -c 
+```  
+
 Output:
       8 r
       1 s
 
 With total worth:
-```grep -o [dser] 1.txt | sort | uniq -c | awk '{if ($2 == "d") print $2, $1, value=$1*3500;  else if ($2 == "s") print $2, $1, value=$1*1200 ; else if ($2 == "e") print $2, $1, value=$1*800; else if ($2 == "r") print $2, $1, value=$1*50; total+=value} END {print "total", total}' ```   
+
+```
+grep -o [dser] 1.txt | sort | uniq -c | awk '{if ($2 == "d") print $2, $1, value=$1*3500;  else if ($2 == "s") print $2, $1, value=$1*1200 ; else if ($2 == "e") print $2, $1, value=$1*800; else if ($2 == "r") print $2, $1, value=$1*50; total+=value} END {print "total", total}' 
+```   
+
 Output:  
 e 1 800  
 r 3 150  
 total 950  
 
-Regex with PCRE (Matches the number after result)  
-```grep -ioP "result\s*\K\d+"```
+Regex with PCRE (Matches the number after result)
+
+```
+grep -ioP "result\s*\K\d+"
+```
+
