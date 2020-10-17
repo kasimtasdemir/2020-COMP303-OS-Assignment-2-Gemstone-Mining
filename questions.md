@@ -37,16 +37,20 @@ You are given N text files (buckets) filled with random characters (dirt).
 - The bucket worths 0$ in the beginning. 
 - When the child finds a gem, she/he increases the bucket value by the amount of the found gemstone.
 - The child also prints out the found gem and her/his process id.
-- As soon as the end of the file is reached, they return the total amount to the mother.
-- When all the children are done, Mother adds up the values of all buckets and displays the result in the following format:
+- As soon as the end of the file is reached, they return their bucket values to the mother.
+- When all the children are done, **Mother adds up the values of all buckets and displays the result** in the following format:
 
 **[PID:4256] Result 7250**
 
 
 # Part 2
-Only the mother will do the bucket value calculation. Children will only send the gemstone to the mother whenever it is found.  
+This time, the children will not calculate the bucket values. **Only the mother will do the bucket value calculation**. Children will only **send the gemstone to the mother as soon as it is found**.
+
+## 2.1) Message passing
 Communication from child to parent will be done via message passing.
 
+## 2.2) Shared memory
+Communication from child to parent will be done via a shared memory.
 
 # Help
 In linux command line, we can checkout the content of a bucket:
