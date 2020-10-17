@@ -3,7 +3,7 @@
 A mother has a gemstone mining business. She needs help with sifting for gemstones from her children. She gives a bucket of dirt to each of her children. 
 
 Price list:
-- diamond, 3500$ 
+- diamond, 3500$ <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fminecraft.fandom.com%2Ftr%2Fwiki%2FElmas&psig=AOvVaw3iVkBd4vSBIgxHvhjns7Ac&ust=1603019104502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCJsNW9u-wCFQAAAAAdAAAAABAD" width="50" />
 - ruby, 50$ <img src="https://vignette.wikia.nocookie.net/minecraftfanfictions/images/a/a9/Ruby.png/revision/latest?cb=20120803041131" width="50" />
 - sapphire, 1200$ <img src="https://www.tynker.com/minecraft/api/item?id=5a501d3e76f29325548b468d&w=400&h=400&width=400&height=400&mode=contain&format=jpg&quality=75&cache=max&v=1515199806" width="50" />
 - emerald 800$ <img src="https://p7.hiclipart.com/preview/867/644/1013/minecraft-roblox-diamond-video-game-emerald-stone-png-transparent-images.jpg" width="50" />
