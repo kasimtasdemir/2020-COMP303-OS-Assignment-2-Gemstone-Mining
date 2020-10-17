@@ -24,6 +24,11 @@ In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes
 
 **[PID:4256] A new child has been created with PID: 5738.** 
 
+- Every action carried out by either children or the parent will be displayed such as:
+
+**[PID:5738] Tired. Going to sleep for 712msec.**
+
+
 # Part 1
 You are given N text files (buckets) filled with random characters (dirt). 
 - The main process (the mother) will create N children.
