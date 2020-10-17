@@ -14,7 +14,6 @@ a bucket of dirt is represented by a text file which is filled with random chara
 
 **s**uff**r**kly7acxjvg8**er**06q5wxk6pgqqywq4q**e**y0eafdwc9**e**4w9**e**
 
-<span style="background-color: #FFFF00">This text is highlighted in yellow.</span>
 In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes it worth of 1200+50x2+800x4=4500$  
 
 The mother is represented by the main process, children are the child processes. 
