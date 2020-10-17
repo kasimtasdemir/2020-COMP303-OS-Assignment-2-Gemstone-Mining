@@ -1,6 +1,8 @@
 # 2020 COMP303 OS Assignment 2 Gemstone Mining
 This is assignment 2 of COMP303 Operating Systems course offered on Fall, 2020, at Abdullah Gul University, by Kasim Tasdemir.
 
+See the [questions.md](questions.md) file for the questions.
+
 ## Prequsites
 - Install Ubuntu 18.04 on VirtualBox
 ## Rules
