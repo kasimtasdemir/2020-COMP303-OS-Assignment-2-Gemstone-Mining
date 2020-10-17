@@ -9,16 +9,16 @@ Price list:
 - emerald 800$ <img src="https://p7.hiclipart.com/preview/867/644/1013/minecraft-roblox-diamond-video-game-emerald-stone-png-transparent-images.jpg" width="50" />
 
 In this assignment, 
-a bucket of dirt is represented by a text file which is filled with random characters, the dirt<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/263/bucket_1faa3.png" width="30" />. The gemstones are represented by their first letter (lowercase). An example file content is given below:
+- a bucket of dirt is represented by a text file which is filled with random characters, the dirt<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/263/bucket_1faa3.png" width="30" />. 
+- The gemstones are represented by their first letter (lowercase). An example file content is given below:
 
 
 **s**uff**r**kly7acxjvg8**er**06q5wxk6pgqqywq4q**e**y0eafdwc9**e**4w9**e**
 
 In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes it worth of 1200+50x2+800x4=4500$  
 
-The mother is represented by the main process, children are the child processes. 
-
-The children get tired after checking out 24 characters in the text file and go to sleep for a random amount between 500-1500msec. 
+- The mother is represented by the main process, children are the child processes. 
+- The children get tired after checking out 24 characters in the text file and go to sleep for a random amount between 500-800msec. 
 
 # Part 1
 You are given N text files (buckets) filled with random characters (dirt). 
