@@ -31,7 +31,8 @@ In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes
 - You are not allowed to use any highlevel libraries or shell commands in your codes such as `grep`. You need to implement all of the answers using low level C functions such as open, read, fprintf, sprintf, etc. If you are really in doubt, please share your question in Canvas discussions.
 
 - Do not use the word *result* in your output messages until the end. This is a special keyword I checkon it in the Makefile to evaluate your final result. 
-
+## Notes
+- We haven't yet learned syncronization, that is, locks, semaphores, etc. You do not need to worry about race conditions in this assignment.
 
 # Part 1
 You are given N text files (buckets) filled with random characters (dirt). 
