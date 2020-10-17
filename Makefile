@@ -29,9 +29,21 @@ clean:
 tests: test1 test2
 
 test1: ans1
-	@./$(TARGET_01)
+	$(eval RECEIVED_OUTPUT = $(shell ./$(TARGET_01) | grep  -ioP "result\s*\K\d+" ))
+	$(eval EXPECTED_ANS = $(shell \
+	cat buckets/0.txt | grep -o [dser] | sort | uniq -c | awk '{if ($$2 == "d") value=$$1*3500;  else if ($$2 == "s") value=$$1*1200 ; else if ($$2 == "e") value=$$1*800; else if ($$2 == "r") value=$$1*50; total+=value} END {print total}' \
+	))
+	@test $(RECEIVED_OUTPUT) = $(EXPECTED_ANS) \
+    || { echo $(RECEIVED_OUTPUT) received but $(EXPECTED_ANS) was expected; exit 2; } \
+    && { echo $(RECEIVED_OUTPUT) is correct.; } 
 test2: ans2
-	@./$(TARGET_02)
+	$(eval RECEIVED_OUTPUT = $(shell ./$(TARGET_02) | grep  -ioP "result\s*\K\d+" ))
+	$(eval EXPECTED_ANS = $(shell \
+	cat buckets/0.txt buckets/1.txt buckets/2.txt buckets/3.txt buckets/4.txt | grep -o [dser] | sort | uniq -c | awk '{if ($$2 == "d") value=$$1*3500;  else if ($$2 == "s") value=$$1*1200 ; else if ($$2 == "e") value=$$1*800; else if ($$2 == "r") value=$$1*50; total+=value} END {print total}' \
+	))
+	@test $(RECEIVED_OUTPUT) = $(EXPECTED_ANS) \
+    || { echo $(RECEIVED_OUTPUT) received but $(EXPECTED_ANS) was expected; exit 2; } \
+    && { echo $(RECEIVED_OUTPUT) is correct.; } 
 
 .PHONY: generate
 generate: run_generate

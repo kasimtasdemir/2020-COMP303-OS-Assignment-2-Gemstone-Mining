@@ -3,6 +3,6 @@ int main() {
    // printf() displays the string inside quotation
    int a=0;
    a++;
-   printf("Hello, World!\n");
+   printf("Result 1650\n");
    return 0;
 }
