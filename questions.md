@@ -18,13 +18,26 @@ In this assignment,
 In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes it worth of 1200+50x2+800x4=4500$  
 
 - The mother is represented by the main process, children are the child processes. 
-- The children get tired after checking out 24 characters in the text file and go to sleep for a random amount between 500-800msec. 
+## Constraints
+- The children get tired after checking out 24 characters in the text file and go to sleep for a random amount between 500-800msec.
+- All of the displayed messages in this assingment must start with the process id of the message owner such as:
+
+**[PID:4256] A new child has been created with PID: 5738.** 
 
 # Part 1
 You are given N text files (buckets) filled with random characters (dirt). 
-The main process (the mother) will create N children.
-Each child will take its text file and start reading the text file one character at a time. The bucket worths 0$ in the beginning. When the child finds a gem, she/he increases the bucket value by the amount of the found gemstone.  When the end of the file is reached, they return the total amount to the mother.
-When all the children are done, Mother adds up the values of all buckets and displays the result.
+- The main process (the mother) will create N children.
+- She will printout the process IDs of the created child.
+- Each child will take its text file and start reading the text file **one character at a time**. 
+- The bucket worths 0$ in the beginning. 
+- When the child finds a gem, she/he increases the bucket value by the amount of the found gemstone.
+- The child also prints out the found gem and her/his process id.
+- As soon as the end of the file is reached, they return the total amount to the mother.
+- When all the children are done, Mother adds up the values of all buckets and displays the result in the following format:
+
+**[PID:4256] Result 7250**
+
+
 # Part 2
 Only the mother will do the bucket value calculation. Children will only send the gemstone to the mother whenever it is found.  
 Communication from child to parent will be done via message passing.
