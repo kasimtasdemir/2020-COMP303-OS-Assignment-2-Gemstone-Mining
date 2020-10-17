@@ -23,7 +23,7 @@
     {
       "name": "Test3",
       "setup": "make generate_with_random_seeds",
-      "run": "make test2",
+      "run": "make test1",
       "input": "",
       "output": "",
       "comparison": "included",
