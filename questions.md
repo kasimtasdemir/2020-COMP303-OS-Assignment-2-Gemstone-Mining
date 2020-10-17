@@ -28,7 +28,7 @@ In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes
 
 **[PID:5738] Tired. Going to sleep for 712msec.**
 
-- You are not allowed to use any highlevel libraries or shell commands in your codes such as `grep`. You need to implement all of the answers using low level C functions such as open, read, fprintf, sprintf, etc. If you are really in doubt, please share your question in Canvas discussions.
+- You are not allowed to use any highlevel libraries or shell commands in your codes such as `grep`. You need to implement all of the answers using low level C functions such as open, read, fprintf, sprintf, etc. But ofcourse, for some tasks we need to use system libraries such as creating a pipe, getting the process id etc. If you are really in doubt about a specific function, please share your question in Canvas discussions.
 
 - Before exiting the program, clean up your resources shm-unlink, munmap, close, free, etc.
 
