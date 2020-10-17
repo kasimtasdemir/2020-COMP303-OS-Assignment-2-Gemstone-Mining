@@ -1,7 +1,7 @@
 # 2020 COMP303 OS Assignment 2 Gemstone Mining
 This is assignment 2 of COMP303 Operating Systems course offered on Fall, 2020, at Abdullah Gul University, by Kasim Tasdemir.
 
-Setup your system as explained [here](https://docs.google.com/document/d/1D3LnA0_xeYbbjsy9k3VN61rTBnec79oQBX7q2yJjO9A/edit?usp=sharing).
+Setup your system as explained [here](https://docs.google.com/document/d/1D3LnA0_xeYbbjsy9k3VN61rTBnec79oQBX7q2yJjO9A/edit?usp=sharing).  
 See the [questions.md](questions.md) file for the questions.
 
 ## Prequsites
