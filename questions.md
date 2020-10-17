@@ -10,9 +10,9 @@ Price list:
 In this assignment, 
 a bucket of dirt is represented by a text file which is filled with random characters, the dirth. The gemstones are represented by their first letter (lowercase). An example file content is given below:
 
-suffrkly7acxjvg8er06q5wxk6pgqqywq4qey0eafdwc9e4w9e
+**s**uff**r**kly7acxjvg8**er**06q5wxk6pgqqywq4q**e**y0eafdwc9**e**4w9**e**
 
-In this sample bucket there are 1 sapphire, 2 rubies, 4 emeralds which makes it worth of 1200+50x2+800x4=4500$  
+In this sample bucket there are **1 sapphire, 2 rubies, 4 emeralds** which makes it worth of 1200+50x2+800x4=4500$  
 
 The mother is represented by the main process, children are the child processes. 
 
