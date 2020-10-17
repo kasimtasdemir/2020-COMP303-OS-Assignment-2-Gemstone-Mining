@@ -59,6 +59,10 @@ Communication from child to parent will be done via message passing.
 ## 2.2) Shared memory
 Communication from child to parent will be done via a shared memory.
 
+# Part 3
+There will be only one child. The communication between parent and child will be full-duplex (double way).
+- If the bucket value exceeds 200, The parent will send a message to child asking her/him to exit.
+
 # Help
 In linux command line, we can checkout the content of a bucket:
 
